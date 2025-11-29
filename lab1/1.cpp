@@ -5,7 +5,7 @@
 using namespace cv;
 using namespace std;
 
-const string IMAGE_PATH = "../lab1/image/1.jpg"; //图像的相对路径
+const string IMAGE_PATH = std::string(IMAGE_DIR) +"/1.jpg"; //图像的相对路径
 
 // 显示图像函数的封装
 void showAndWait(const string& windowName, const Mat& image){
